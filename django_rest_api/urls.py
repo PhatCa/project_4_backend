@@ -19,7 +19,6 @@ from django.conf.urls import include
 
 urlpatterns = [
     path('',include('movie_picker.urls')),
-    path('',include('users.urls')),
 
     path('admin/', admin.site.urls),
 ]
